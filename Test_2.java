@@ -14,6 +14,6 @@ public class Test_2 {
         int hypoteneuse = (m*m) + (n*n);
         System.out.println("Side one: "+sideOne+" Side two: "+sideTwo+" Hypoteneuse: "+hypoteneuse);
         double cost = (2.412*sideOne) + (3.767*sideTwo)+(15.758*hypoteneuse);
-        System.out.println("The cost is: "+cost);
+        System.out.println("The cost is: $"+cost);
     }
 }
